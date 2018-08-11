@@ -3,7 +3,6 @@
  * @author missingbinaries
  */
 
-
 class QtPie {
     constructor(args) {
         this.args = args;
