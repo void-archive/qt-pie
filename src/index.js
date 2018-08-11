@@ -1,3 +1,9 @@
+/**
+ * @name QtPie for the qt in u
+ * @author missingbinaries
+ */
+
+
 class QtPie {
     constructor(args) {
         this.args = args;
