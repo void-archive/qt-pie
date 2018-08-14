@@ -10,7 +10,7 @@ class QtPie {
 
     /**
      * Call someone cute
-     * @param {*} args 
+     * @param {string} args 
      */
     qt(args) {
         if(typeof args !== 'string') throw `Qtpie must be a string`;
