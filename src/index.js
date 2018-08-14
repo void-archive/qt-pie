@@ -1,5 +1,5 @@
 /**
- * @name QtPie for the qt in u
+ * @name QtPie
  * @author missingbinaries
  */
 
@@ -8,9 +8,13 @@ class QtPie {
         this.args = args;
     }
 
+    /**
+     * Call someone cute
+     * @param {*} args 
+     */
     qt(args) {
         if(typeof args !== 'string') throw `Qtpie must be a string`;
-        if(args === 'you') {
+        if(args === `you`) {
             return console.log(`${args} are qt af`);
         }
         return console.log(`${args} is qt af`);
