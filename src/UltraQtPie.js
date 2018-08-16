@@ -10,6 +10,7 @@ class UltraQtPie extends QtPie {
     }
 
     /**
+     * Call someone ULTRA cute
      * @param {string} args 
      */
     ultraQt(args) {
